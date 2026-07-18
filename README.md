@@ -95,7 +95,7 @@ Sales Prediction
 
 ### 🔗 Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_analysis.png)
 
 **Insight:** Item_MRP has the strongest positive correlation with Item_Outlet_Sales, while Item_Visibility shows only a weak relationship.
 
