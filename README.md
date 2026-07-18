@@ -71,7 +71,6 @@ Sales Prediction
 
 **Insight:** The sales distribution is positively skewed, with most products generating moderate sales and a few products achieving exceptionally high sales.
 
----
 
 ### 🏪 Sales by Outlet Type
 
@@ -79,7 +78,6 @@ Sales Prediction
 
 **Insight:** Supermarket Type 1 contributes the largest share of total sales, indicating it is the highest-performing outlet format.
 
----
 
 ### 🛒 Sales by Item Category
 
@@ -87,7 +85,6 @@ Sales Prediction
 
 **Insight:** Fruits & Vegetables and Snack Foods are among the highest revenue-generating product categories.
 
----
 
 ### 💰 Item MRP vs Sales
 
@@ -95,7 +92,6 @@ Sales Prediction
 
 **Insight:** Products with higher MRP generally tend to achieve higher sales, although the relationship is not perfectly linear.
 
----
 
 ### 🔗 Correlation Heatmap
 
