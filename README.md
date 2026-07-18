@@ -64,14 +64,44 @@ Sales Prediction
 - Outlet-wise Revenue
 
 ## 📈 Exploratory Data Analysis
-The project includes:
 
-- Sales Distribution
-- Outlet Analysis
-- Product Category Analysis
-- Price Analysis
-- Item Visibility Analysis
-- Correlation Analysis
+### 📊 Sales Distribution
+
+![Sales Distribution](images/sales_distribution.png)
+
+**Insight:** The sales distribution is positively skewed, with most products generating moderate sales and a few products achieving exceptionally high sales.
+
+---
+
+### 🏪 Sales by Outlet Type
+
+![Outlet Analysis](images/outlet_analysis.png)
+
+**Insight:** Supermarket Type 1 contributes the largest share of total sales, indicating it is the highest-performing outlet format.
+
+---
+
+### 🛒 Sales by Item Category
+
+![Product Analysis](images/product_analysis.png)
+
+**Insight:** Fruits & Vegetables and Snack Foods are among the highest revenue-generating product categories.
+
+---
+
+### 💰 Item MRP vs Sales
+
+![MRP Analysis](images/price_analysis.png)
+
+**Insight:** Products with higher MRP generally tend to achieve higher sales, although the relationship is not perfectly linear.
+
+---
+
+### 🔗 Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+**Insight:** Item_MRP has the strongest positive correlation with Item_Outlet_Sales, while Item_Visibility shows only a weak relationship.
 
 ## 💡 Key Business Insights
 - Supermarket Type 1 generated the highest overall sales.
@@ -102,6 +132,8 @@ Among all the models evaluated, **XGBoost** achieved the lowest MAE and RMSE whi
 
 ## ⭐ Feature Importance
 The XGBoost model identifies the most influential features contributing to sales prediction.
+
+![Feature Importance](images/feature_importance.png)
 
 ### Key Findings
 
